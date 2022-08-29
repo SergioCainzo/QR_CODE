@@ -1,0 +1,60 @@
+/* Atributos */
+.attribution { font-size: 11px; text-align: center;margin-top: 15px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* Container do HTML para background da imagem */
+html{
+    height: 100%;
+    background-image: linear-gradient(hsl(0, 0%, 100%), hsl(218, 44%, 22%));
+    background-repeat: no-repeat;
+}
+/* Imagem Tamanho */
+.imagem {
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* Container principal */
+.container {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    width: 330px;
+    height: 500px;
+    box-shadow: 8px 8px 8px hsl(212, 45%, 89%);
+
+    /* Position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_texto {
+    margin: 15px;
+    text-align: center;
+    
+}
+
+.titulo {
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragrafo {
+    color: hsl(220, 15%, 55%);
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+
